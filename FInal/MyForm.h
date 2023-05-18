@@ -189,6 +189,8 @@ private: System::Void функция3ToolStripMenuItem_Click(System::Object^ sender, Sy
 	r3^ f = gcnew r3();
 	f->ShowDialog();
 }
-
+private: System::Void оПрограммеToolStripMenuItem_Click(System::Object^ sender, System::EventArgs^ e) {
+	MessageBox::Show("Программа, которая считает интегралы методом правых прямоугольников \n \n Преподаватель: Никитина Т.П.", "О программе");
+}
 };
 }
